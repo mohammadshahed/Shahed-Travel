@@ -1,0 +1,10 @@
+#login {
+    max-width: 400px;
+}
+#login img.icon{
+    width: 25px;
+    margin: 0 10px 2px 0;
+}
+#bg-img{
+    background-image: none;
+}
