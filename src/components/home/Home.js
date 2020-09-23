@@ -24,9 +24,9 @@ const Home = () => {
                         <Row>
                             {
                                 places.map(place =>
-                                <Col className="placePhoto" sm={4} key={place.name}>
-                                    <div onClick={() => setShowPlace(place)} className="mt-3 text-white text-center d-block bg-transparent">
-                                        <img src={place.photo} alt="" className="photo hover" style={{cursor: 'pointer'}} />
+                                <Col className="placePhoto" xs={4} key={place.name}>
+                                    <div onClick={() => setShowPlace(place)} className="mt-3 text-white text-center bg-transparent">
+                                        <img src={place.photo} alt="Hotel Book" className="photo hover d-block" style={{cursor: 'pointer'}} />
                                         {place.name}
                                     </div>
                                 </Col>)
